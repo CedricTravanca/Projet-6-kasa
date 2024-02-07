@@ -6,8 +6,7 @@ function Header() {
     return(
         <div className="navbar">
             <img src={logo} alt="logo kasa" className="kasa-logo-nav" />
-            <h1>blabla titre</h1>
-            <nav>
+            <nav className="navbar--nav">
                 <ul>
                     <li>
                         <NavLink to="/"> Accueil</NavLink>
