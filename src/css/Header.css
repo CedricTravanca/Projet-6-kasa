@@ -1,9 +1,11 @@
-body{
+.container{
     margin: 45px 100px;
+    min-height: 100vh;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
+    margin: 45px 100px;
 }
 
 .navbar--nav ul {

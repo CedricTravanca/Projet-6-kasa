@@ -1,0 +1,25 @@
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error-page p{
+    margin: 139px;
+    color: #FF6060;
+    font-size: 36px;
+}
+
+.error-404 {
+    width: 597px;
+    justify-content: center;
+    display: flex;
+    margin-top: 160px;
+}
+
+.back-to-homepage a{
+    padding-bottom: 139px;
+    color:#FF6060;
+    font-size: 18px;
+    text-decoration: underline;
+}
