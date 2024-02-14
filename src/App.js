@@ -1,9 +1,9 @@
 import {Routes, Route } from "react-router-dom";
-import Home from "./Components/Home";
-import About from "./Components/About";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import Error from "./Components/Error";
+import Error from "./Pages/Error";
 import "./css/App.css";
 
 function App() {
