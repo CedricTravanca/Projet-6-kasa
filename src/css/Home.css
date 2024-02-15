@@ -5,16 +5,18 @@
     border-radius: 25px;
     object-fit: cover;
     position: relative;
-    filter: opacity(70%);
-    filter: brightness(80%);
     margin-bottom: 43px;
 }
 
 .text-over-landscape {
-    position:relative;
-    left :25%;
-    top: -105%;
+    position:absolute;
+    left :22%;
+    top: 7%;
     color: white;
-    font-size: 48px;
+    font-size: 4vw;
 }
 
+.landscape img {
+    filter: opacity(70%);
+    filter: brightness(80%);
+}

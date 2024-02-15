@@ -1,0 +1,24 @@
+.cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    padding: 56px 50px;
+    object-fit: contain;
+    justify-content: center;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    height: 350px;
+    width: 350px;
+    background-color: #FF6060;
+}
+
+.card-container img {
+    width: 100%;
+    object-fit: cover;
+}

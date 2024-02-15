@@ -1,16 +1,22 @@
 import "../css/Home.css";
-import landscape from "../Assets/paysage.png"
+import Card from "../Components/Card";
+import Banner from "../Components/Banner";
+import dataHebergements from "../data.json";
 
 function Home() {
     return (
         <div className="home container">
-            <div className="landscape">
-                <img src={landscape} alt="morceau de paysage" className="landscape"/>
-                <p className="text-over-landscape">Chez vous, partout et ailleurs</p>
-            </div>
-            <div className="loc-place">
-                
-            </div>
+            <Banner />
+            <div className="cards-wrapper">
+            {dataHebergements.map((hebergement)=>(
+               <Card 
+                    key={hebergement.id}
+                    id={hebergement.id}
+                    cover= {hebergement.cover}
+                    title={hebergement.title}
+                />
+            ))}
+        </div>
         </div>
     )
 }

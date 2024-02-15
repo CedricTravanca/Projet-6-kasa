@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Error from "./Pages/Error";
 import "./css/App.css";
+import Logements from "./Pages/Logements";
 
 function App() {
   return  (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/logements/:id" element={<Logements />} />
         <Route path="/about" element={<About />} />
         <Route path="*" element={<Error />} />
       </Routes>
