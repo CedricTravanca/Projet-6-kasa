@@ -5,20 +5,20 @@
 }
 
 .error-page p{
-    margin: 139px;
     color: #FF6060;
     font-size: 36px;
+    margin: 100px;
 }
 
 .error-404 {
     width: 597px;
     justify-content: center;
     display: flex;
-    margin-top: 160px;
+    margin-top: 60px;
 }
 
 .back-to-homepage a{
-    padding-bottom: 139px;
+    margin: 139px;
     color:#FF6060;
     font-size: 18px;
     text-decoration: underline;

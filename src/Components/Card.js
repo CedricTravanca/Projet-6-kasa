@@ -7,7 +7,7 @@ function Card(props){
     return(
         <NavLink to={`/logements/${props.id}`}>
             <div className="card-container">
-                <img className="card-img" src={props.cover}/>
+                <img className="card-img" src={props.cover} alt={props.title}/>
                 <div className="card-title">{props.title}</div>
             </div> 
         </NavLink>  
