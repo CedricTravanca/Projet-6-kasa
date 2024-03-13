@@ -1,0 +1,16 @@
+.collapse-content {
+    display: flex;
+    background-color: #F6F6F6;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+    font-size: 18px;
+    color: #FF6060;
+    font-weight: 400;
+}
+
+img.collapse-arrow {
+    background-color: #FF6060;
+    width: 32px;
+    height: 32px;
+    transform: rotate(90deg);
+}

@@ -1,6 +1,7 @@
 import "../css/About.css";
 import mask from '../Assets/Mask-group.png';
 import Collapse from "../Components/Collapse";
+import "../css/collapse.css";
 
 function About() {
     return(
