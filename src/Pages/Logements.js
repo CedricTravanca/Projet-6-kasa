@@ -60,7 +60,11 @@ function Logements(){
                     </div>    
                 <div className="host-rate">{afficherNoteSur5}</div>
                 </div>
-            </div>
+                </div>
+            <div className="apartment-descriptions">
+                <Collapse title="Description" content={apartment?.description}/>
+                <Collapse title="Equipements" content={apartment?.equipements}/>
+            </div>   
         </div>   
     )
 }
