@@ -1,3 +1,17 @@
+button {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 24px;
+    width: 40vw;
+    height: 52px;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #FF6060;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
 .collapse-content {
     display: flex;
     background-color: #F6F6F6;
@@ -13,6 +27,7 @@ img.close-arrow {
     width: 32px;
     height: 32px;
     transform: rotate(0deg);
+    transition-duration: 1s;
 }
 
 img.open-arrow {
