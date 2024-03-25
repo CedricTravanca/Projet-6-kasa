@@ -13,6 +13,7 @@
     color: #FF6060;
     font-size: 36px;
     width: 90%;
+    font-weight: 500;
 }
 
 .apartment-location {
@@ -25,8 +26,6 @@
     justify-content: space-between;
     position: relative;
 }
-
-
 
 .tags {
     display: flex;
@@ -96,7 +95,6 @@
 
 .apartment-descriptions > div {
     width:100%;
-
 }
 
 .collapse-content {

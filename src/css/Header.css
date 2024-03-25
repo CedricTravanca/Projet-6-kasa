@@ -8,13 +8,13 @@
     margin: 45px 100px;
 }
 
-.navbar--nav ul {
+.navbar__nav ul {
     display: flex;
     flex-direction: row;
     
 }
 
-.navbar--nav li {
+.navbar__nav li {
     padding-left: 57px;
     font-size: 24px;
     text-decoration: none;
@@ -24,4 +24,5 @@
 .navbar a {
     text-decoration: none;
     color: #ff6060;
+    font-weight: 500;
 }
