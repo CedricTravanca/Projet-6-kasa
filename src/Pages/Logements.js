@@ -9,9 +9,10 @@ import Rating from "../Components/Rating";
 
 function Logements(){
     const {id} = useParams()
+    
     const apartment = dataHebergements.find(apartment => apartment.id === id);
     const tagHebergement = apartment.tags.map((tag) => <span className="tag" key={tag}>{tag}</span>);
-    
+
     if (!apartment) {
         return <Navigate to="*" replace />;
       }
@@ -35,7 +36,7 @@ function Logements(){
                     </div>    
                 <Rating rating={apartment?.rating}/>
                 </div>
-                </div>
+            </div>
             <div className="apartment-descriptions">
                 <Collapse title="Description" content={apartment?.description}/>
                 <Collapse title="Equipements" content={apartment?.equipments}/>
