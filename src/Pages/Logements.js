@@ -17,6 +17,15 @@ function Logements(){
         return <Navigate to="*" replace />;
       }
 
+    //  const equipmentsList = apartment?.equipments?.map(equipment => {
+     //   return equipment.array;
+     //  });
+    const equipments = apartment.equipments;
+const equipmentsList = equipments.map(equipments => ` ${equipments}`).join('');
+
+
+       console.log(equipmentsList);
+
     return(
         <div className="apartment-page">
             <Carousel pictures= {apartment.pictures}/>
@@ -39,7 +48,9 @@ function Logements(){
             </div>
             <div className="apartment-descriptions">
                 <Collapse title="Description" content={apartment?.description}/>
-                <Collapse title="Equipements" content={apartment?.equipments}/>
+                <Collapse title="Equipements" content={equipments.map((equipment,index) => (
+                <li key={index} className="equipment">{equipment}</li>
+              ))} id="liste"/>
             </div>   
         </div>   
     )

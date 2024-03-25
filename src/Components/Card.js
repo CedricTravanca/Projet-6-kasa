@@ -3,7 +3,7 @@ import "../css/Card.css";
 import React from "react";
 
 function Card(props){
-    console.log(props)
+    //console.log(props)
     return(
         <NavLink to={`/logements/${props.id}`}>
             <div className="card-container">

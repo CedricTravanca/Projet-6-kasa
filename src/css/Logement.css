@@ -26,6 +26,8 @@
     position: relative;
 }
 
+
+
 .tags {
     display: flex;
     flex-direction: row;
@@ -95,4 +97,11 @@
 .apartment-descriptions > div {
     width:100%;
 
+}
+
+.collapse-content {
+    display: flex;
+        flex-direction: column;
+        gap: 5px;
+        list-style-type: none;
 }
