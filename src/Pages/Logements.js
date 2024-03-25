@@ -41,7 +41,7 @@ const equipmentsList = equipments.map(equipments => ` ${equipments}`).join('');
                 <div className="host-space">
                     <div className="host-info">
                         <span className="host-name">{apartment?.host.name}</span>
-                        <img className="host-picture" src={apartment?.host.picture} alt="Photo de l'Hôte"></img>
+                        <img className="host-picture" src={apartment?.host.picture} alt="identité de l'Hôte"></img>
                     </div>    
                 <Rating rating={apartment?.rating}/>
                 </div>

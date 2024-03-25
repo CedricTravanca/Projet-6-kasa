@@ -1,4 +1,3 @@
-import react from 'react';
 import starActive from "../Assets/star-active.png";
 import starInactive from "../Assets/star-inactive.png";
 
