@@ -1,7 +1,4 @@
-.container{
-    margin: 45px 100px;
-    min-height: 100vh;
-}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -25,4 +22,34 @@
     text-decoration: none;
     color: #ff6060;
     font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .navbar {
+        margin: 20px;
+        margin-bottom: 27px;
+    }
+    .navbar__nav li {
+        display: flex;
+    font-size: 12px; 
+    padding-left: 26px;  
+    flex-wrap: nowrap; 
+    }
+
+    .navbar a {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .navbar__nav  ul {
+    padding-left: 0px;
+    }   
+    
+    .kasa-logo-nav {
+        width: 145px;
+        height: 46.88px;
+    }
+
+
 }

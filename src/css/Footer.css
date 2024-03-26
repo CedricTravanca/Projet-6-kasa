@@ -3,9 +3,7 @@
     flex-direction: column;
     display: flex;
     align-items: center;
-    margin-bottom: 0px;
-    margin-top: 30px;
-    height: 209px;
+
 }
 
 .logo-kasa-footer{
@@ -18,8 +16,37 @@
     justify-content: center;
 }
 
-.kasa-rights{
+.footer-big{
+    margin-bottom: 0px;
+    margin-top: 30px;
+    height: 209px;
+}
+.footer-rights{
+    display: block;
     width: 450px;
     margin-bottom: 29px;
     margin-top: 28px;
+}
+
+.footer-small{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+.footer-big {
+    display: none;
+}
+.footer-small{
+    display: flex;
+    width: 100%;
+    padding-bottom: 29px;
+}
+.logo-kasa-footer{
+    width: 150px;
+    margin: 40px 665px 15px 665px;
+}
+.kasa-small-rights{
+    width: 133px;
+}
 }

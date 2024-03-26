@@ -36,3 +36,13 @@
     object-fit: cover;
     opacity: 0.8;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .cards-wrapper{
+    gap: 22px;
+    padding: 0;
+    background-color: transparent;
+    
+    }
+}
