@@ -19,3 +19,20 @@
 .collapse-list button {
     width: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+
+.about-container {
+    margin: 19px 19.5px;
+    min-height: 65vh;
+}
+
+.about-container .mask {
+    padding-bottom: 19px;
+}
+
+.collapse-list {
+    padding:0px;
+    gap: 20px;
+}
+}
