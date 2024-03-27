@@ -23,7 +23,6 @@ button {
 }
 
 img.close-arrow {
-    background-color: #FF6060;
     width: 32px;
     height: 32px;
     transform: rotate(0deg);
@@ -32,10 +31,12 @@ img.close-arrow {
 }
 
 img.open-arrow {
-    background-color: #FF6060;
     width: 32px;
     height: 32px;
     transform: rotate(-180deg);
     transition-duration: 1s;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
 }

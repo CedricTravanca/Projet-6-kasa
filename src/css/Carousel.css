@@ -31,3 +31,34 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 800px) {
+.img-carousel {
+    width: 100%;
+    height: 245px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.right-arrow {
+    top: 199px;
+    right: 25px;
+    width: 11.67px;
+    height: 19.8px;
+
+}
+
+.left-arrow {
+    top: 199px;
+    left: 25px;
+    width: 11.67px;
+    height: 19.8px;
+}
+
+.carousel {
+    height: 230px;
+    margin-bottom: 24px;
+    display: flex;
+
+}
+
+}
