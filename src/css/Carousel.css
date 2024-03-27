@@ -31,6 +31,16 @@
     cursor: pointer;
 }
 
+.image-counter {
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 22%;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 @media screen and (max-width: 800px) {
 .img-carousel {
     width: 100%;
@@ -61,4 +71,7 @@
 
 }
 
+.image-counter {
+    display: none;
+}
 }

@@ -22,6 +22,8 @@ return (
         <img  src={leftArrow} className="left-arrow" alt="précédente" onClick={prevPicture}></img>
         <img  src={rightArrow} className="right-arrow" alt="suivante" onClick={nextPicture}></img>
         <img src={pictures[currentPictureIndex]} className="img-carousel" alt='images du carousel'></img>
+        <div className="image-counter">{currentPictureIndex + 1}/{totalPictures}</div>
+
     </div>
 )
 };
