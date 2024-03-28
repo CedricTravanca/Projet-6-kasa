@@ -1,6 +1,7 @@
-import { NavLink } from "react-router-dom"
-import logo from "../Assets/Logo.png"
-import "../css/Header.css"
+import { NavLink } from "react-router-dom";
+import React, { useCallback } from 'react';
+import logo from "../Assets/Logo.png";
+import "../css/Header.css";
 
 function Header() {
     return(
@@ -9,10 +10,10 @@ function Header() {
             <nav className="navbar__nav">
                 <ul>
                     <li>
-                        <NavLink to="/"> Accueil</NavLink>
+                        <NavLink to="/" className={useCallback(({isActive}) => isActive ? 'active' : '', [])}> Accueil</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/about">A propos</NavLink>
+                        <NavLink to="/about" className={useCallback(({isActive}) => isActive ? 'active' : '', [])}>A propos</NavLink>
                     </li>
                 </ul>
             </nav>

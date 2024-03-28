@@ -13,8 +13,7 @@
 
 .navbar__nav li {
     padding-left: 57px;
-    font-size: 24px;
-    text-decoration: none;
+    font-size: 24px;  
     list-style: none;
 }
 
@@ -51,5 +50,7 @@
         height: 46.88px;
     }
 
-
+    .active {
+        text-decoration: underline !important;
+    }
 }
