@@ -1,11 +1,11 @@
-$color_1: #FF6060;
+$pastel-red: #FF6060;
 
 .error-page {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	p {
-		color: $color_1;
+		color: $pastel-red;
 		font-size: 36px;
 		margin: 100px;
 	}
@@ -19,7 +19,7 @@ $color_1: #FF6060;
 .back-to-homepage {
 	a {
 		margin: 139px;
-		color: $color_1;
+		color: $pastel-red;
 		font-size: 18px;
 		text-decoration: underline;
 	}
@@ -41,7 +41,7 @@ $color_1: #FF6060;
 	.back-to-homepage {
 		a {
 			margin: 77px;
-			color: $color_1;
+			color: $pastel-red;
 			font-size: 14px;
 			text-decoration: underline;
 		}

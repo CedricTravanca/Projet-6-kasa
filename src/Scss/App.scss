@@ -1,6 +1,6 @@
-$color_1: white;
-$color_2: #61dafb;
-$background-color_1: #282c34;
+$white: white;
+$athena-blue: #61dafb;
+$gun-metal: #282c34;
 
 @keyframes App-logo-spin {
 	from {
@@ -18,17 +18,17 @@ $background-color_1: #282c34;
 	pointer-events: none;
 }
 .App-header {
-	background-color: $background-color_1;
+	background-color: $gun-metal;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	font-size: calc(10px + 2vmin);
-	color: $color_1;
+	color: $white;
 }
 .App-link {
-	color: $color_2;
+	color: $athena-blue;
 }
 @media (prefers-reduced-motion: no-preference) {
 	.App-logo {

@@ -1,4 +1,4 @@
-$color_1: white;
+$white: white;
 
 .container {
 	margin: 45px 100px;
@@ -18,12 +18,13 @@ $color_1: white;
 }
 .text-over-landscape {
 	position: absolute;
-	left: 20%;
-	top: 7%;
-	color: $color_1;
+	width: 100%;
+	text-align: center;
+	top: 15%;
+	color: $white;
 	font-size: 4vw;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
 	body {
 		margin: 0;
 	}
@@ -41,6 +42,7 @@ $color_1: white;
 	}
 	.text-over-landscape {
 		left: 10%;
+		text-align: left;
 		top: 1%;
 		font-size: 6vw;
 		width: 60%;

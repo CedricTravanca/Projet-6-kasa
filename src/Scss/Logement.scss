@@ -1,6 +1,6 @@
-$color_1: #FF6060;
-$color_2: white;
-$background-color_1: #FF6060;
+$pastel-red: #FF6060;
+$white: white;
+$pastel-red: #FF6060;
 
 .apartment-page {
 	padding-left: 100px;
@@ -11,13 +11,13 @@ $background-color_1: #FF6060;
 	flex-direction: column;
 }
 .apartment-title {
-	color: $color_1;
+	color: $pastel-red;
 	font-size: 36px;
 	width: 90%;
 	font-weight: 500;
 }
 .apartment-location {
-	color: $color_1;
+	color: $pastel-red;
 	font-size: 18px;
 }
 .apartment-container {
@@ -34,9 +34,9 @@ $background-color_1: #FF6060;
 }
 .tag {
 	display: flex;
-	background-color: $background-color_1;
+	background-color: $pastel-red;
 	border-radius: 10px;
-	color: $color_2;
+	color: $white;
 	font-size: 14px;
 	min-width: 115px;
 	height: 25px;
@@ -54,7 +54,7 @@ $background-color_1: #FF6060;
 .host-name {
 	display: flex;
 	flex-wrap: wrap;
-	color: $color_1;
+	color: $pastel-red;
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 26px;

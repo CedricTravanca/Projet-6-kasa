@@ -1,4 +1,4 @@
-$color_1: white;
+$white: white;
 
 .carousel {
 	width: 100%;
@@ -32,7 +32,7 @@ $color_1: white;
 	position: absolute;
 	left: 50%;
 	bottom: 22%;
-	color: $color_1;
+	color: $white;
 	font-size: 18px;
 	font-weight: 500;
 }

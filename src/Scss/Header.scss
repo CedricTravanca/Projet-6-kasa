@@ -1,4 +1,4 @@
-$color_1: #ff6060;
+$pastel-red: #ff6060;
 
 .navbar {
 	display: flex;
@@ -6,7 +6,7 @@ $color_1: #ff6060;
 	margin: 45px 100px;
 	a {
 		text-decoration: none;
-		color: $color_1;
+		color: $pastel-red;
 		font-weight: 500;
 	}
 }
