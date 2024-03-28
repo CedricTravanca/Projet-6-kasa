@@ -1,0 +1,49 @@
+$color_1: #FF6060;
+
+.error-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	p {
+		color: $color_1;
+		font-size: 36px;
+		margin: 100px;
+	}
+}
+.error-404 {
+	width: 597px;
+	justify-content: center;
+	display: flex;
+	margin-top: 60px;
+}
+.back-to-homepage {
+	a {
+		margin: 139px;
+		color: $color_1;
+		font-size: 18px;
+		text-decoration: underline;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.error-404 {
+		width: 59%;
+		margin-top: 113px;
+	}
+	.error-page {
+		p {
+			display: flex;
+			font-size: 18px;
+			margin: 57px;
+			text-align: center;
+		}
+		min-height: 550px;
+	}
+	.back-to-homepage {
+		a {
+			margin: 77px;
+			color: $color_1;
+			font-size: 14px;
+			text-decoration: underline;
+		}
+	}
+}

@@ -1,0 +1,41 @@
+$color_1: white;
+$color_2: #FF6060;
+$background-color_1: #FF6060;
+$background-color_2: #F6F6F6;
+
+button {
+	display: flex;
+	flex-wrap: nowrap;
+	font-size: 24px;
+	width: 40vw;
+	height: 52px;
+	align-items: center;
+	justify-content: space-between;
+	background-color: $background-color_1;
+	color: $color_1;
+	border-radius: 5px;
+	border: none;
+}
+.collapse-content {
+	display: flex;
+	background-color: $background-color_2;
+	border-radius: 0 0 5px 5px;
+	padding: 10px;
+	font-size: 18px;
+	color: $color_2;
+	font-weight: 400;
+}
+img.close-arrow {
+	width: 32px;
+	height: 32px;
+	transform: rotate(0deg);
+	transition-duration: 1s;
+	cursor: pointer;
+}
+img.open-arrow {
+	width: 32px;
+	height: 32px;
+	transform: rotate(-180deg);
+	transition-duration: 1s;
+	cursor: pointer;
+}

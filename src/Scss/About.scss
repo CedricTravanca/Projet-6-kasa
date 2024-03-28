@@ -1,0 +1,32 @@
+
+.about-container {
+	margin: 45px 100px;
+	min-height: 100vh;
+	.mask {
+		width: 100%;
+		padding-bottom: 40px;
+	}
+}
+.collapse-list {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	padding-left: 9%;
+	padding-right: 9%;
+	button {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.about-container {
+		margin: 19px 19.5px;
+		min-height: 65vh;
+		.mask {
+			padding-bottom: 19px;
+		}
+	}
+	.collapse-list {
+		padding: 0px;
+		gap: 20px;
+	}
+}
