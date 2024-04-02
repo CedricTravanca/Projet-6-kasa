@@ -1,4 +1,4 @@
-import "../css/About.css";
+import "../Scss/About.scss";
 import mask from '../Assets/Mask-group.png';
 import Collapse from "../Components/Collapse";
 import "../Scss/Collapse.scss";
