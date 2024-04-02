@@ -1,4 +1,4 @@
-import "../css/Error.css";
+import "../Scss/Error.scss";
 
 import logo404 from "../Assets/404.png"
 

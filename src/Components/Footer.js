@@ -1,4 +1,4 @@
-import "../css/Footer.css";
+import "../Scss/Footer.scss";
 import logoFooter from "../Assets/Logo-footer.png";
 import kasaRights from "../Assets/kasa-rights.png";
 import kasaSmallRights from "../Assets/kasa-small-rights.png";

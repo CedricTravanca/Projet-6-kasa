@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import React, { useCallback } from 'react';
 import logo from "../Assets/Logo.png";
-import "../css/Header.css";
+import "../Scss/Header.scss";
 
 function Header() {
     return(
