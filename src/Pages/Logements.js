@@ -9,17 +9,11 @@ import Rating from "../Components/Rating";
 
 function Logements(){
     const {id} = useParams()
-    
     const apartment = dataHebergements.find(apartment => apartment.id === id);
-    const tagHebergement = apartment.tags.map((tag) => <span className="tag" key={tag}>{tag}</span>);
-
     if (!apartment) {
         return <Navigate to="*" replace />;
       }
-
-    //  const equipmentsList = apartment?.equipments?.map(equipment => {
-     //   return equipment.array;
-     //  });
+    const tagHebergement = apartment.tags.map((tag) => <span className="tag" key={tag}>{tag}</span>);
     const equipments = apartment.equipments;
 const equipmentsList = equipments.map(equipments => ` ${equipments}`).join('');
 
