@@ -5,7 +5,7 @@ import React from "react";
 function Card(props){
     //console.log(props)
     return(
-        <NavLink to={`/logements/${props.id}`}>
+        <NavLink to={`/Projet-6-kasa/logements/${props.id}`}>
             <div className="card-container">
                 <img className="card-img" src={props.cover} alt={props.title}/>
                 <div className="card-title">{props.title}</div>
