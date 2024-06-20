@@ -10,10 +10,10 @@ function Header() {
             <nav className="navbar__nav">
                 <ul>
                     <li>
-                        <NavLink to="/" className={useCallback(({isActive}) => isActive ? 'active' : '', [])}> Accueil</NavLink>
+                        <NavLink to="/Projet-6-kasa/" className={useCallback(({isActive}) => isActive ? 'active' : '', [])}> Accueil</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/about" className={useCallback(({isActive}) => isActive ? 'active' : '', [])}>A propos</NavLink>
+                        <NavLink to="/Projet-6-kasa/about" className={useCallback(({isActive}) => isActive ? 'active' : '', [])}>A propos</NavLink>
                     </li>
                 </ul>
             </nav>
